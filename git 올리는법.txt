@@ -1,0 +1,25 @@
+d드라이브에 폴더(gitExam) 생성 - 파일(yedam)만들고
+(숨긴파일로 확인)
+
+d:
+cd gitExam
+git init (git에 올리기 위해 초기화)
+
+git add yedam.text 
+or git add * ( 모든파일)
+
+git config --global user.email "메일주소"
+git config --global user.name "닉네임"
+
+git config --list (확인)
+git commit -m 'test' (test라는 설명. 메시지 입력해두는 것)
+
+
+git remote add origin 올리는 깃허브 경로
+
+git remote -v 어디에 올리는지 확인
+
+git push origin master 
+
+창뜨면 내 토큰 넣고 확인 누르면 ~~ 
+올라갔어요~~~~^_^ 
